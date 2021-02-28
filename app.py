@@ -12,8 +12,8 @@ app = Flask(__name__,template_folder='templates',static_folder = 'static')
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 # message intergation using Twilio
-account_sid = "AC5ce8ed9f834ac8111cf955d00ed9fe87"
-auth_token = "50d952238749f38da7da1413fff96500"
+account_sid = "AC5c8f52b5ccaf28ba5bdd255de1af5f93"
+auth_token = "c23b541d732473aeca4fb5960de4372d"
 
 client = Client(account_sid, auth_token)
 
@@ -90,12 +90,16 @@ def disease_prediction():
         user_info.append(user_pincode)
         user_info.append(user_gender)
 
-        #print(user_info[1])
-        send_email(user_info[1])
+        try:
+            #print(user_info[1])
+            send_email(user_info[1])
 
-        # go to next section: i.e. prediction page
-        return render_template('disease-prediction.html', symptoms=sorted(symptoms))
-
+            # go to next section: i.e. prediction page
+            return render_template('disease-prediction.html', symptoms=sorted(symptoms))
+        
+        except:
+            # go to next section: i.e. prediction page
+            return render_template('disease-prediction.html', symptoms=sorted(symptoms))
     return render_template('register.html')
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
@@ -200,19 +204,30 @@ def booking():
 
         body_txt = f'''\n\nHey {user_info[0]}, Welcome to MED LYFE 24/7 !!!\n\nOur system has predicted that you are most likely suffering from {predicted_disease}.\n\nYour appoinment has been booked at {hosp_name[0]}\n\nDate: {new_date}\nTiming: {time}\n\nContact Us +1234567'''
 
-        message = client.messages.create(
-                              body= body_txt,
-                              from_='+17813437199',
-                              to='+91'+user_info[2]
-                          )
+        print('number=', user_info[2])
+
+        try:
+            message = client.messages.create(
+                                body= body_txt,
+                                from_='+17272708707',
+                                to='+919892991690'
+                            )
+            
+            print(message.sid)
+
+            # then empty the user list
+            del user_info[:]
+            del hosp_name[:]
+
+            return(render_template('thankyou.html'))
         
-        print(message.sid)
+        except:
+            # then empty the user list
+            del user_info[:]
+            del hosp_name[:]
 
-        # then empty the user list
-        del user_info[:]
-        del hosp_name[:]
+            return(render_template('thankyou.html'))
 
-        return(render_template('thankyou.html'))
 
     return render_template('book-app.html')
 

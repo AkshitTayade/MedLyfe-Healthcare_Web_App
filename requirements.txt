@@ -4,5 +4,3 @@ scikit-learn==0.22.1
 pandas==1.0.3
 numpy==1.18.5
 twilio==6.53.0
-
-
