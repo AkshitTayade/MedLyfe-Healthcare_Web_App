@@ -35,23 +35,18 @@ class Predict():
 
 
     def symptom_predicition(self):
-        actual_ip = []
-
         clf = joblib.load('model checkpoints/svm_complete.pkl')
 
-        for i in range(0,len(self.needed_symptoms)):
-            actual_ip.append(0)       
-        
-        for i in range(0, len(self.needed_symptoms)):
+        actual_ip = [0 for _ in range(len(self.needed_symptoms))]
+
+        for i in range(len(self.needed_symptoms)):
             for z in self.psymptoms:
                 if z == 0:
                     continue
                 elif z == self.needed_symptoms[i]:
                     actual_ip[i] = 1
 
-        predict = clf.predict([actual_ip])
-        
-        return(predict)
+        return clf.predict([actual_ip])
 
 
 if __name__ == "__main__":
