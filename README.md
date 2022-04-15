@@ -1,5 +1,9 @@
 # MedLyfe - Healthcare Web Application
 
+# To run/setup over local system
+1. Clone the repo using command
+2. 
+
 # Tech Stack
 1. Bootstrap (Frontend)
 2. Flask (Backend)
@@ -7,6 +11,7 @@
 4. Github (Version Control)
 5. Visual Studio Code (Code Editor)
 6. Heroku (Deployment)
+7. Twilio (Customer Engagment)
 
 # Live Demo
 <p align='center'>
