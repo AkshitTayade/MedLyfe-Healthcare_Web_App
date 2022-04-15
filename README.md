@@ -1,10 +1,12 @@
 # MedLyfe - Healthcare Web Application
 
 # To run/setup over local system
-1. Clone the repo using command
-```
-public static String monthNames[] = {"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"};
-```
+1. Clone the repo using command 
+   ```
+   git clone https://github.com/AkshitTayade/MedLyfe-Healthcare_Web_App.git
+   ```
++2.
+
 
 # Tech Stack
 1. Bootstrap (Frontend)
