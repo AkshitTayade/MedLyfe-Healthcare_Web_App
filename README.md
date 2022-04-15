@@ -2,10 +2,13 @@
 
 # To run/setup over local system
 1. Clone the repo using command 
+
    ```
    git clone https://github.com/AkshitTayade/MedLyfe-Healthcare_Web_App.git
    ```
+   
 2. Create a virtual environment in python and run the following
+
     ```
    pip install -r requirements.txt
    python app.py
