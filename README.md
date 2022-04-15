@@ -2,7 +2,9 @@
 
 # To run/setup over local system
 1. Clone the repo using command
-2. 
+```
+public static String monthNames[] = {"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"};
+```
 
 # Tech Stack
 1. Bootstrap (Frontend)
