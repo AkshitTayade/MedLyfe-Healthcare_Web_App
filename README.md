@@ -17,12 +17,32 @@ The lockdown that took place due to the Covid-19 all around the country had some
 * The application also has a feature that allows the patient to see the nearest hospital to their current location.
 * The basic concept behind this project is to inform patients about the disease they are suffering from and provide appropriate options to cure it, as well as to reduce the burden on offline health centres, clinics, and hospitals.
 
-# Work Flow of Web Application
+# Demonstration of Web Application
 
 <p align='justify'>
    <img src='https://github.com/AkshitTayade/MedLyfe-Healthcare_Web_App/blob/main/static/readme/Picture%202.png'>
 </p>
 
+
+<p align='justify'>
+   <img src='https://github.com/AkshitTayade/MedLyfe-Healthcare_Web_App/blob/main/static/readme/Picture%203.png'>
+</p>
+
+<p align='justify'>
+   <img src='https://github.com/AkshitTayade/MedLyfe-Healthcare_Web_App/blob/main/static/readme/Picture%204.png'>
+</p>
+
+<p align='justify'>
+   <img src='https://github.com/AkshitTayade/MedLyfe-Healthcare_Web_App/blob/main/static/readme/Picture%205.png'>
+</p>
+
+<p align='justify'>
+   <img src='https://github.com/AkshitTayade/MedLyfe-Healthcare_Web_App/blob/main/static/readme/Picture%206.png'>
+</p>
+
+<p align='justify'>
+   <img src='https://github.com/AkshitTayade/MedLyfe-Healthcare_Web_App/blob/main/static/readme/Picture%207.png'>
+</p>
 
 # To run/setup over local system
 1. Clone the repo using command 
@@ -31,13 +51,13 @@ The lockdown that took place due to the Covid-19 all around the country had some
    git clone https://github.com/AkshitTayade/MedLyfe-Healthcare_Web_App.git
    ```
    
-2. Create a virtual environment in python and run the following
+2. Create a virtual environment in python
 
     ```
    pip install -r requirements.txt
    ```
    
-3. run the following
+3. Run the following Code 
 
     ```
    python app.py
