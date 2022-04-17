@@ -44,6 +44,10 @@ The lockdown that took place due to the Covid-19 all around the country had some
    <img src='https://github.com/AkshitTayade/MedLyfe-Healthcare_Web_App/blob/main/static/readme/Picture%207.png'>
 </p>
 
+<p align='justify'>
+   <img src='https://github.com/AkshitTayade/MedLyfe-Healthcare_Web_App/blob/main/static/readme/Picture%208.png'>
+</p>
+
 # To run/setup over local system
 1. Clone the repo using command 
 
