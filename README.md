@@ -14,7 +14,7 @@ The lockdown that took place due to the Covid-19 all around the country had some
 * So we come up with our own Disease Predicting System web application "MedLyfe".A simple,elegant website on which you can view the disease suffered by entering various symptoms.
 * In this application, the patient must enter their symptoms, after which our Machine-Learning-based Web Application will inform them about the disease they are suffering from and recommend some home remedies and medications. 
 * The application will also tell the patient about the disease and various treatments via SMS and E-MAIL.
-* The application also has a feature that allows the patient to see the nearest hospital to their current location.
+* The application also has a feature that allows the patient to see the nearest hospital to their current location and book an appointment for the same
 * The basic concept behind this project is to inform patients about the disease they are suffering from and provide appropriate options to cure it, as well as to reduce the burden on offline health centres, clinics, and hospitals.
 
 # Demonstration of Web Application
@@ -80,7 +80,7 @@ The lockdown that took place due to the Covid-19 all around the country had some
 
 # Future Scope 
 * We could implement a direct connection between doctor and patient via VIDEO CALLING facilities by integrating Twilio. API
-* We could also implement a recommender system for predicting medicines for the diagnosed disease􏰀
+* We could also implement a recommender system for predicting medicines for the diagnosed disease
 * We can also implement an AI chatbot which will help the patient communicate with the doctors
 
 # Made with Love from :
