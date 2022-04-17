@@ -16,7 +16,15 @@ To narrow down the load on the offline health centres. Most of them were afraid 
    pip install -r requirements.txt
    python app.py
    ```
-# Problem Statement    
+# Problem Statement
+The lockdown that took place due to the Covid-19 all around the country had some severe impact on people. Most of them were afraid to go outside of their homes. People were reluctant to go even for a routine checkup.
+
+# Proposed Solution
+* So we come up with our own Disease Predicting System web application "MedLyfe".A simple,elegant website on which you can view the disease suffered by entering various symptoms.
+* In this application, the patient must enter their symptoms, after which our Machine-Learning-based Web Application will inform them about the disease they are suffering from and recommend some home remedies and medications. 
+* The application will also tell the patient about the disease and various treatments via SMS and E-MAIL.
+* The application also has a feature that allows the patient to see the nearest hospital to their current location.
+* The basic concept behind this project is to inform patients about the disease they are suffering from and provide appropriate options to cure it, as well as to reduce the burden on offline health centres, clinics, and hospitals.
 
 # Tech Stack
 1. Bootstrap (Frontend)
