@@ -26,6 +26,10 @@ The lockdown that took place due to the Covid-19 all around the country had some
 * The application also has a feature that allows the patient to see the nearest hospital to their current location.
 * The basic concept behind this project is to inform patients about the disease they are suffering from and provide appropriate options to cure it, as well as to reduce the burden on offline health centres, clinics, and hospitals.
 
+# Work Flow of Web Application
+
+
+
 # Tech Stack
 1. Bootstrap (Frontend)
 2. Flask (Backend)
