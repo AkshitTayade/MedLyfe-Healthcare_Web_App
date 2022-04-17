@@ -40,5 +40,10 @@ The lockdown that took place due to the Covid-19 all around the country had some
      <img alt="GIF" src="https://github.com/AkshitTayade/Healthcare-ML-Web-App/blob/main/static/css/demo_website.gif" width="800" height="500" />
 </p>
 
+# Future Scope 
+* We could implement a direct connection between doctor and patient via VIDEO CALLING facilities by integrating Twilio. API
+* We could also implement a recommender system for predicting medicines for the diagnosed disease􏰀
+* We can also implement an AI chatbot which will help the patient communicate with the doctors
+
 # Made with Love from :
 Team Alfa 
