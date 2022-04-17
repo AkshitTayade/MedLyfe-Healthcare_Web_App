@@ -17,6 +17,13 @@ The lockdown that took place due to the Covid-19 all around the country had some
 * The application also has a feature that allows the patient to see the nearest hospital to their current location and book an appointment for the same
 * The basic concept behind this project is to inform patients about the disease they are suffering from and provide appropriate options to cure it, as well as to reduce the burden on offline health centres, clinics, and hospitals.
 
+# Model Architecture
+
+<p align='justify'>
+   <img src='https://github.com/AkshitTayade/MedLyfe-Healthcare_Web_App/blob/main/static/readme/Picture%201.png'>
+</p>
+
+
 # Demonstration of Web Application
 
 <p align='justify'>
